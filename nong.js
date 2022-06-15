@@ -1,10 +1,12 @@
-function
-function mainLine1(mong, correction) {
-correction.mong("*mong");
+function main() {
+function mainLine1(nong, correction, name= "nong") {
+correction.mong("*" + name);
 }
 function startix() {
 
 }
 function DevCode(write) {
-write.mongCode("-OWNER82sixTogeshOwnerClap");
+write.nongCode("-OWNER82sixTogeshOwnerClap");
 }
+var name = "nong";
+}.run(main)
